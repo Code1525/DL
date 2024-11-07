@@ -13,15 +13,9 @@ import random
 # MNIST-> Modified National Instute of Standard and Technology
 
 > #import dataset and split into train and test data
-train_data_dir = 'FILE_PATH/mnist-jpg/test'                            # DATASET is been provided by PD 
-test_data_dir = 'FILE_PATH/mnist-jpg/train'
-
-(x_train, y_train), (x_test, y_test) 
-
-                     OR
 
 #import dataset and split into train and test data
-mnist = tf.keras.datasets.mnist                                       # DATASET is been provided by INTERNET
+mnist = tf.keras.datasets.mnist                                       
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
