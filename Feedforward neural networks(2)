@@ -13,9 +13,10 @@ import random
 # MNIST-> Modified National Instute of Standard and Technology
 
 > #import dataset and split into train and test data
-mnist = tf.keras.datasets.mnist
+train_data_dir = 'FILE_PATH/mnist-jpg/test'
+test_data_dir = 'FILE_PATH/mnist-jpg/train'
 
-(x_train, y_train), (x_test, y_test) = mnist.load_data()   OR     dataset = pd.read_csv("FILE_PATH")
+(x_train, y_train), (x_test, y_test) 
 
 
 > # to see the length of training datasets
