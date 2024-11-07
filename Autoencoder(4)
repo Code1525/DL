@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras import layers, models
 
 
-> dataset = pd.read_csv("/content/creditcard.csv")
+> dataset = pd.read_csv("FILE_PATH/creditcard.csv")
 
 
 > # Preprocess the data
