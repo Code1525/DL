@@ -61,11 +61,6 @@ x_test = x_test / 255
 #here 255 is maximum value of intensity that's why it is divided by 255
 
 
-> # Normalizing the RGB codes by dividing it to the max RGB value.
-x_train = x_train / 255
-x_test = x_test / 255
-
-
 > x_train[0]
 
 #--------------------Creating the model--------------------
