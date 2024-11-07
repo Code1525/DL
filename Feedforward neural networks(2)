@@ -1,3 +1,5 @@
+> !pip install tensorflow==2.12.0       #install the latest version
+
 > #importing necessary libraries
 import tensorflow as tf
 from tensorflow import keras
@@ -85,6 +87,11 @@ model.summary()
 > model.compile(optimizer="sgd",   # Stochastic Gradient Descent
 loss="sparse_categorical_crossentropy",    # crossentropy reduces the loss
 metrics=['accuracy'])
+
+
+> history=model.fit(x_train,y_train,validation_data=(x_test,y_test),epochs=10)
+# epochs means duration/iteration shows loss and accuracy
+# data is stored in history
 
 # ---------------------------Evaluate Model-------------------------------
 
