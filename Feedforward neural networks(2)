@@ -12,7 +12,8 @@ import random
 
 > #import dataset and split into train and test data
 mnist = tf.keras.datasets.mnist
-(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+(x_train, y_train), (x_test, y_test) = mnist.load_data()   OR     dataset = pd.read_csv("FILE_PATH")
 
 
 > # to see the length of training datasets
